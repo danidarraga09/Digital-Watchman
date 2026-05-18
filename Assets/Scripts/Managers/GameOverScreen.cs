@@ -124,7 +124,6 @@ public class GameOverScreen : MonoBehaviour
 
         if (ActionStack.Instance != null)
             ActionStack.Instance.Limpiar();
-
         UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
     }
 }
